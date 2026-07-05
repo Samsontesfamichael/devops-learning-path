@@ -25,8 +25,7 @@ df -h | grep -E '^/dev/' || df -h | head -n 2 
 
 echo ""  
 echo "\[2\] Checking RAM Memory (in MB)..."  
-free -m 
-
-echo "========================================"  
+free -m
+echo "======================================="  
 echo "Report Generated Successfully."  
 echo "========================================"
