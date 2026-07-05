@@ -5,8 +5,7 @@ Welcome to my DevOps engineering preparation repository. This repository documen
 ### About Me
 
 *   🎓 **Education:** 5-Year B.Sc. in Information Technology (Engineering Track) | Mekelle University
-*   📍 **Location Status:** Secured local accommodation & registration (Anmeldung) available in **Augsburg, Germany (86153)**.
-*   🎯 **Goal:** Preparing for the DevOps Engineer Trainee program at **makandra**.
+*   🎯 **Goal:** Preparing for the DevOps Engineer Trainee program
 
 * * *
 
