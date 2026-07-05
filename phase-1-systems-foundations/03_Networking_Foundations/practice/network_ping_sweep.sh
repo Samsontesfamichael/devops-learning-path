@@ -15,7 +15,7 @@ echo "--------------------------------------------------------"
 
 ### Loop through host IP addresses 1 to 10
 
-for host in {1..10}; do  
+for host in {1..255}; do  
 TARGET\_IP="SUBNET.host"
 
 \# Send 1 single ping packet with a 1-second timeout limit  
