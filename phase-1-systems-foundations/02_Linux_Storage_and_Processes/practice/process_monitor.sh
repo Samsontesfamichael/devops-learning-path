@@ -15,17 +15,17 @@ echo "Checking the status of the process: $SERVICE..."
 ### Check if the process is running using systemctl
 
 if systemctl is-active --quiet "$SERVICE"; then  
-echo "\[OK\] $SERVICE is running smoothly."  
+echo "[OK] $SERVICE is running smoothly."  
 else  
-echo "\[WARNING\] $SERVICE is stopped! Attempting automated recovery..."
+echo "[WARNING] $SERVICE is stopped! Attempting automated recovery..."
 
-\# Attempt to restart the service (requires sudo/root permissions)  
+# Attempt to restart the service (requires sudo/root permissions)  
 sudo systemctl start "$SERVICE"
 
-\# Verify if recovery was successful  
+# Verify if recovery was successful  
 if systemctl is-active --quiet "$SERVICE"; then  
-echo "\[SUCCESS\] $SERVICE was successfully restarted."  
+echo "[SUCCESS] $SERVICE was successfully restarted."  
 else  
-echo "\[CRITICAL\] Automated recovery failed for $SERVICE. Human intervention needed!"  
+echo "[CRITICAL] Automated recovery failed for $SERVICE. Human intervention needed!"  
 fi  
 fi
