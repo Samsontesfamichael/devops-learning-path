@@ -18,13 +18,13 @@ echo "========================================" 
 ### 1\. Check Disk Space Usage
 
 echo ""  
-echo "\[1\] Checking Hard Drive Disk Space..."  
+echo "[1] Checking Hard Drive Disk Space..."  
 df -h | grep -E '^/dev/' || df -h | head -n 2 
 
 ### 2\. Check RAM Memory Usage
 
 echo ""  
-echo "\[2\] Checking RAM Memory (in MB)..."  
+echo "[2] Checking RAM Memory (in MB)..."  
 free -m
 echo "======================================="  
 echo "Report Generated Successfully."  
