@@ -30,4 +30,4 @@ EXPOSE 5000
 
 ### Step 7: Define the structural execution command to launch the app securely
 
-CMD \["python", "app.py"\]
+CMD ["python", "app.py"]
